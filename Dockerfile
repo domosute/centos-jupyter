@@ -8,7 +8,7 @@ wget https://repo.continuum.io/archive/Anaconda3-5.1.0-Linux-x86_64.sh && \
 chmod +x /opt/Anaconda3-5.1.0-Linux-x86_64.sh &&\
 /opt/Anaconda3-5.1.0-Linux-x86_64.sh -b -p /opt/conda && \
 /opt/conda/bin/conda update -y --prefix /opt/conda conda && \
-/opt/conda/bin/conda install -y jupyter numpy pandas
+/opt/conda/bin/conda install -y jupyter numpy pandas r
 
 RUN echo "export PATH=/opt/conda/bin:$PATH" > /etc/profile.d/conda.sh && \
 groupadd -g 1000 jupyter && \
