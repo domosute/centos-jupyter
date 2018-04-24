@@ -1,1 +1,1 @@
-c.NotebookApp.token ='jupyter'
+c.NotebookApp.token = 'jupyter'
