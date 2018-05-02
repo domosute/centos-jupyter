@@ -21,7 +21,7 @@ chmod 0440 /etc/sudoers.d/jupyter && \
 echo "c.NotebookApp.token = 'jupyter'" > /home/jupyter/jupyter_notebook_config.py && \
 # Remove files to reduce image size
 rm -f /opt/Anaconda3-5.1.0-Linux-x86_64.sh && \
-conda clean -y --all
+/opt/conda/bin/conda clean -y --all
 
 EXPOSE 8888
 USER jupyter
