@@ -11,4 +11,4 @@ docker run -d -it -p 8888:8888 -v $PWD:/home/jupyter --name centos-jupyter domos
 ```
 where "$PWD" is outside working directory in case if persistent storage is preferred.
 
-By storing `jupyter_notebook_config.py` under working directory would enable password access instead of token. (default is set as 'jupyter')
+Storing `jupyter_notebook_config.py` under working directory would enable password access instead of token. (default is set as 'jupyter')
