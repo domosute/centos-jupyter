@@ -3,7 +3,7 @@ Jupyter Notebook Docker image for x86_64 platform
 
 Used [centos](https://hub.docker.com/_/centos/) as base image, and [Anaconda3 5.1.0](https://repo.continuum.io/archive/) for jupyter notebook.
 
-How to Run the image
+How to Run the Image
 ------------
 Under docker-enabled environment, execute the following;
 ```
